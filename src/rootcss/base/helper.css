@@ -1,0 +1,176 @@
+/*
+* @Author: tengmaoqing
+* @Date:   2018-04-20 18:51:42
+* @Last Modified by:   tengmaoqing
+* @Last Modified time: 2018-05-25 19:15:36
+*/
+
+.clearfix {
+  content: " ";
+  display: block;
+  clear: both;
+  &:before,
+  &:after {
+    content: " ";
+    display: block;
+  }
+  &:after {
+    clear: both;
+  }
+}
+
+.text-center {
+  text-align: center;
+}
+
+.text-left {
+  text-align: left;
+}
+
+.text-right {
+  text-align: right;
+}
+
+.text-primary {
+  color: $global-primary-color;
+}
+
+.text-muted {
+  color: $global-muted-color;
+}
+
+.text-danger {
+  color: $global-danger-color;
+}
+
+.text-white {
+  color: $global-white;
+}
+
+.text-base {
+  color: $global-base-color;
+}
+
+.text-nowrap {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.text-sz-slogan {
+  font-size: $global-slogan-fontsize;
+}
+
+.text-sz-price {
+  font-size: $global-bprice-fontsize;
+}
+
+.text-sz-title {
+  font-size: $global-main-title-fontsize;
+}
+
+.text-sz-sec-title {
+  font-size: $global-secondary-title-fontsize;
+}
+
+.text-sz-descript {
+  font-size: $global-description;
+}
+
+.text-ellipsis {
+  text-overflow: ellipsis;
+  overflow: hidden;
+  white-space: nowrap;
+}
+
+.text-link {
+  color: $global-link-color;
+}
+
+.pointer {
+  cursor: pointer;
+}
+
+.bg-gray {
+  background-color: $global-gray;
+}
+
+.bg-white {
+  background-color: $global-white;
+}
+
+.fl {
+  float: left;
+}
+
+.fr {
+  float: right;
+}
+
+.hr {
+  margin: $global-spacer-md 0;
+  border-top: 0;
+  border-bottom: 1px solid $global-gray;
+}
+
+.invisible {
+  visibility: hidden;
+}
+
+.border-radius-0 {
+  border-radius: 0;
+}
+
+.mb-base {
+  margin-bottom: $global-spacer-md;
+}
+
+.mt-base {
+  margin-top: $global-spacer-md;
+}
+
+.mb-lg {
+  margin-bottom: $global-spacer-lg;
+}
+
+.mt-lg {
+  margin-top: $global-spacer-lg;
+}
+
+@media (--sm-viewport) {
+  .mb-base {
+    margin-bottom: $global-spacer-sm;
+  }
+
+  .mt-base {
+    margin-top: $global-spacer-sm;
+  }
+
+  .mb-lg {
+    margin-bottom: $global-spacer-md;
+  }
+
+  .mt-lg {
+    margin-top: $global-spacer-md;
+  }
+}
+
+/* 两栏布局 */
+.col-left {
+  float: left;
+  width: 260px;
+  margin-right: 100px;
+}
+
+.col-right {
+  overflow: auto;
+}
+
+@media (--sm-viewport) {
+  .col-left {
+    float: none;
+    width: 100%;
+    margin-right: 0;
+  }
+}
+

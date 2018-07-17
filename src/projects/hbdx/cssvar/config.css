@@ -1,0 +1,52 @@
+/*
+* @Author: tengmaoqing
+* @Date:   2018-05-04 10:11:37
+* @Last Modified by:   tengmaoqing
+* @Last Modified time: 2018-05-07 16:46:47
+*/
+
+
+/* space */
+$global-spacer-sm: 10px;
+$global-spacer-md: 15px;
+$global-spacer-lg: 30px;
+
+/* font-size */
+$global-slogan-fontsize: responsive 24px 48px;
+$global-bprice-fontsize: responsive 18px 36px;
+$global-main-title-fontsize: responsive 18px 24px;
+$global-secondary-title-fontsize: responsive 14px 18px;
+$global-body-fontsize: 14px;
+$global-description: 12px;
+
+/* color */
+$global-primary-color: #529AFF;
+$global-link-color: #34495e;
+$global-muted-color: #999;
+$global-danger-color: #C23838;
+$global-base-color: #000;
+$global-disabled-bgc: #e6e6e6;
+
+$global-border-color: #eee;
+$global-white: #fff;
+$global-gray: #f4f4f4;
+
+/* radius */
+$global-border-radius: 4px;
+
+/* grid */
+$global-gutter: 15px;
+
+/* breakoption */
+@custom-media --sm-viewport (max-width: 979PX);
+@custom-media --not-sm-viewport (min-width: 981PX);
+@custom-media --md-viewport (max-width: 1199PX);
+@custom-media --lg-viewport (min-width: 1201PX);
+
+/* box-shadow */
+/*$global-box-shadow: ;*/
+
+/* evlaute  start */
+$evaluate-option-height: 50px;
+$evaluate-option-spacer: 10px;
+/* evlaute  end */

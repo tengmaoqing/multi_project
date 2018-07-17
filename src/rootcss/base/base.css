@@ -1,0 +1,44 @@
+/*
+* @Author: tengmaoqing
+* @Date:   2018-04-20 16:59:59
+* @Last Modified by:   tengmaoqing
+* @Last Modified time: 2018-05-18 16:30:04
+*/
+@import 'normalize.css';
+@import 'config.css';
+@import 'bootstrap.css';
+@import 'helper.css';
+@import 'layout.css';
+
+* {
+  box-sizing: border-box;
+}
+
+body{
+  line-height: 1.4;
+  color: $global-base-color;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
+  font-size: 14px;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-tap-highlight-color: transparent;
+}
+
+body, h1, h2, h3, h4, h5, h6, p, ul, ol, form {
+  margin: 0;
+}
+
+label:focus {
+  outline: none;
+}
+
+ul, ol {
+  padding-left: 0;
+  list-style-type: none;
+}
+
+a {
+  color: $global-link-color;
+  text-decoration: none;
+}

@@ -1,0 +1,68 @@
+.form-item {
+  margin-top: 10px;
+}
+
+.hsb-cell {
+  margin-right: -10px;
+  margin-left: -10px;
+}
+
+.form-control {
+  padding: 10px 8px;
+  box-sizing: border-box;
+  outline: none;
+  border: 0;
+  border: 1px solid #888;
+}
+
+.recycle-list {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.recycle-item {
+  width: 30%;
+  height: 40px;
+  line-height: 40px;
+  text-align: center;
+  background-color: gainsboro;
+  &.is-active {
+    background: #FCDB00;
+  }
+}
+
+.pay-list {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.pay-item {
+  width: 30%;
+  height: 40px;
+  line-height: 40px;
+  text-align: center;
+  background-color: gainsboro;
+  &.is-active {
+    background: #FCDB00;
+  }
+}
+
+.mask {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, .4);
+}
+
+.picker {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  background-color: #fff;
+}

@@ -1,0 +1,19 @@
+/*
+* @Author: tengmaoqing
+* @Date:   2018-05-02 12:03:01
+* @Last Modified by:   tengmaoqing
+* @Last Modified time: 2018-05-02 14:08:27
+*/
+
+@mixin rowMachine($numPerRow,$margin) {
+    width: (100% - (($numPerRow - 1) * $margin)) / $numPerRow;
+
+    &:nth-child(n) {
+        margin-bottom: $margin;
+        margin-right: $margin;
+    }
+
+    &:nth-child(#{$numPerRow}n) {
+        margin-right: 0;
+    }
+}
