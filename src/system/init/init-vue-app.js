@@ -15,6 +15,7 @@ import * as filters from '@/helper/filters';
 import 'babel-polyfill';
 import { merge } from 'lodash';
 import * as CONST from '../const/recycle';
+import 'element-ui/lib/theme-chalk/icon.css';
 
 Vue.config.productionTip = false;
 Vue.prototype.Q_CONST = CONST;

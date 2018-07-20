@@ -35,6 +35,10 @@
   color: $global-primary-color;
 }
 
+.text-black {
+  color: #000;
+}
+
 .text-muted {
   color: $global-muted-color;
 }
@@ -69,8 +73,12 @@
   font-size: $global-main-title-fontsize;
 }
 
-.text-sz-sec-title {
+.text-sz-sub-title {
   font-size: $global-secondary-title-fontsize;
+}
+
+.text-sz-s-title {
+  font-size: 16px;
 }
 
 .text-sz-descript {
@@ -99,6 +107,15 @@
   background-color: $global-white;
 }
 
+.bg-primary {
+  background-color: $global-primary-color;
+}
+
+.block {
+  display: block;
+  width: 100%;
+}
+
 .fl {
   float: left;
 }
@@ -121,6 +138,10 @@
   border-radius: 0;
 }
 
+.br-base {
+  border-radius: $global-border-radius;
+}
+
 .mb-base {
   margin-bottom: $global-spacer-md;
 }
@@ -135,24 +156,6 @@
 
 .mt-lg {
   margin-top: $global-spacer-lg;
-}
-
-@media (--sm-viewport) {
-  .mb-base {
-    margin-bottom: $global-spacer-sm;
-  }
-
-  .mt-base {
-    margin-top: $global-spacer-sm;
-  }
-
-  .mb-lg {
-    margin-bottom: $global-spacer-md;
-  }
-
-  .mt-lg {
-    margin-top: $global-spacer-md;
-  }
 }
 
 /* 两栏布局 */

@@ -11,7 +11,7 @@
   "plugins": ["transform-vue-jsx", "transform-runtime", "lodash",
     ["component", [{
         "libraryName": "element-ui",
-        "styleLibraryName": "theme-chalk"
+        "styleLibraryName": "~src/projects/emp/assets/theme"
     }, {
         "libraryName": "mint-ui",
         "style": true

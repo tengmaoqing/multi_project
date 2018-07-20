@@ -15,17 +15,17 @@ $global-spacer-lg: 30px;
 /* font-size */
 $global-slogan-fontsize: responsive 24px 48px;
 $global-bprice-fontsize: responsive 18px 36px;
-$global-main-title-fontsize: 24px;
+$global-main-title-fontsize: 20px;
 $global-secondary-title-fontsize: 18px;
 $global-body-fontsize: 14px;
 $global-description: 12px;
 
 /* color */
 $global-primary-color: #444753;
-$global-link-color: #868686;
+$global-link-color: #333;
 $global-muted-color: #999;
 $global-danger-color: #ff6340;
-$global-base-color: #868686;
+$global-base-color: #333;
 $global-disabled-bgc: #e6e6e6;
 
 $global-border-color: #eee;
@@ -33,7 +33,7 @@ $global-white: #fff;
 $global-gray: #e4e4e4;
 
 /* radius */
-$global-border-radius: 4px;
+$global-border-radius: 5px;
 
 /* grid */
 $global-gutter: 15px;
